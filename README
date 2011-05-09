@@ -1,16 +1,26 @@
-Aim:
+Kill it dead
+============
+
+Aim
+---
 To kill Internet Explorer < 8... though it would be nice to kill IE 8 too.
 
-Use:
-I don't have access to a CDN, so you're going to have to store this somewhere on 
-your webspace.
+Use
+---
+I don't have access to a CDN, so you're going to have to store the javascript 
+and css files somewhere on your webspace.
 
-Configure:
-Change the css to what you would like to see, upload it, and change the path in 
-the Javascipt to that file.
+Configure
+---------
+1. Change the css to what you would like
+2. upload killie.css
+3. In killie.js change the css path to the above location (2).
+4. Upload killie.js
+5. In your html (either before the </head> or, for better performance, before 
+the </body> tag) include one of the following:
 
-IE6
-<!--[if IE lt 7]><script src="pathtoie.js"></script><![endif]-->
+### For IE6
+<!--[if IE lte 6]><script src="pathtoie.js"></script><![endif]-->
 
-IE7
-<!--[if IE lt 8]><script src="pathtoie.js"></script><![endif]-->
+### For IE7
+<!--[if IE lte 7]><script src="pathtoie.js"></script><![endif]-->
