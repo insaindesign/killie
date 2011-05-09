@@ -20,7 +20,7 @@ Configure
 the &lt;/body&gt; tag) include one of the following:
 
 ### For IE6
-    &lt;!--[if IE lte 6]&gt;&lt;script src="pathtoie.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+    <!--[if IE lte 6]><script src="pathtoie.js"></script><![endif]-->
 
 ### For IE7
-    &lt;!--[if IE lte 7]&gt;&lt;script src="pathtoie.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+    <!--[if IE lte 7]><script src="pathtoie.js"></script><![endif]-->
