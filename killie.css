@@ -1,10 +1,70 @@
-#browser-user-message { position:fixed; _position:absolute; top:0; left:0; width:100%; font-size:14px; line-height:1.231; color:#444; z-index:1000000; overflow:hidden; text-align:left; border-bottom:2px solid #BBB; text-shadow:0 1px 0 #f1f1f1; background:#ddd; }
-#browser-user-message .inner { margin:0 auto; width:960px; padding:10px; position:relative; z-index:2 }
-#browser-user-message .inner * { padding:0; margin:0; border:none; outline:none }
-#browser-user-message .inner a { font-weight:700; color:#444; text-decoration:none }
-#browser-user-message .inner a:hover { color:#000; text-decoration:none }
-#browser-user-message .inner h3 { font-size:123.1%; font-weight:700; color:#000; margin:0 0 5px; padding:0; }
-#browser-user-message .inner p { margin:1px 0 0; }
-#browser-user-message .inner .close { position:absolute; right:10px; top:10px; cursor:pointer; font-weight:400; padding:0 0 0 10px; }
-#browser-user-message .inner .close span { display:none; font-size:85%; }
-#browser-user-message .inner .close:hover span { display:inline }
+#browser-user-message {
+    position:fixed;
+    _position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    font:400 12px/1.23 Arial;
+    color:#0d0b01;
+    z-index:1000000;
+    overflow:hidden;
+    text-align:left;
+    border-top:1px solid #ffe970;
+    border-bottom:1px solid #fff;
+    text-shadow:0 1px 0 #ffe13e;
+    background:#ffc703;
+    background:url(killie.png);
+}
+#browser-user-message .inner {
+    padding:6px 45px 4px 70px;
+    position:relative;
+    z-index:2;
+    border-bottom:1px solid #bf8a01;
+    background:url(killie.png) no-repeat -30px -61px;
+    height:51px;
+}
+#browser-user-message .inner * {
+    padding:0;
+    margin:0;
+    border:none;
+    outline:none;
+    font-family:arial;    
+}
+#browser-user-message .inner a {
+    color:#0d0b01;
+    font-weight:700;
+    text-decoration:none
+}
+#browser-user-message .inner a:hover {
+    color:#000;
+    text-decoration:underline
+}
+#browser-user-message .inner h3 {
+    font-size:14px;
+    font-weight:700;
+    color:#000;
+    margin:0 0 1px;
+    padding:0;
+}
+#browser-user-message .inner p {
+    margin:0;
+    padding:0;
+    white-space:nowrap
+}
+#browser-user-message .inner .close {
+    position:absolute;
+    right:10px;
+    top:12px;
+    cursor:pointer;
+}
+#browser-user-message .inner .close strong {
+    background:url(killie.png) -1px -76px no-repeat;
+    overflow:hidden;
+    height:30px;
+    width:30px;
+    text-indent:-1000px;
+    display:block;
+}
+#browser-user-message .inner .close span {
+    display:none;
+}
