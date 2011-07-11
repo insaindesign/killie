@@ -5,6 +5,8 @@ is not supported (or support soon to be dropped) by this site and prompt them to
  a new browser. It will continue to appear until the user clicks the X, which will set
 a cookie for 1 week. After which, it will return again.
 
+Checkout a working demo at http://play.insaindesign.com/killie/.
+
 Aim
 ---
 To kill Internet Explorer < 8... though it would be nice to kill IE 8 too.
